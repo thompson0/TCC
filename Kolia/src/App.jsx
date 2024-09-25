@@ -6,9 +6,15 @@ function App() {
 
   return (
     <>
-      <Header/>
-      <Outlet/>
-      <Footer/>
+
+      <section className=' px-[250px] w-full h-screen font-montserrat'>
+        <Header/>
+        <Outlet/>
+        <Footer/>
+      </section>
+      
+      
+
     </>
   )
 }

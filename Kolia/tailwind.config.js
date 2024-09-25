@@ -7,14 +7,11 @@ export default {
   theme: {
     extend: {
       colors:{
-        laranja: "#E76B38"
+        laranja: "#E76B38",
+        cinza: "#5B5B5B"
       },
       fontFamily:{
-        montserrat: ["Montserrat", "sans-serif"],
-        Kolia: ["Post No Bills Jaffna"]
-      },
-      fontSize:{
-        
+        montserrat: ["Montserrat", "sans-serif"]
       }
     },
   },

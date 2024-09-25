@@ -1,13 +1,13 @@
-import { NavLink } from "react-router-dom";
+import Link from "../Link/Link";
 
 function Navbar() {
     return ( 
         <nav className="flex items-center"> 
             <ul className="flex gap-10 items-center">
-                <li><NavLink className='font-montserrat text-2xl' to="/">Home</NavLink></li>
-                <li><NavLink className='font-montserrat text-2xl' to="produtos">Produtos</NavLink></li>
-                <li><NavLink className='font-montserrat text-2xl' to="sobre">Sobre</NavLink></li>
-                <li><NavLink className='font-montserrat text-2xl' to="contato">Contato</NavLink></li>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="produtos">Produtos</Link></li>
+                <li><Link to="sobre">Sobre</Link></li>
+                <li><Link to="contato">Contato</Link></li>
             </ul>
         </nav>
      );
