@@ -1,5 +1,7 @@
-export default function Botao({value}){
+import { NavLink } from "react-router-dom";
+
+export default function Botao({children,to}){
     return(
-        <input type="button" value={value} className="text-white p-2 w-48 bg-laranja rounded-lg" />
+        <NavLink to={to} className="text-white text-center font-extrabold p-2 w-72 bg-laranja rounded-md">{children}</NavLink>
     )
 }

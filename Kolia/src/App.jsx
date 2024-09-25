@@ -7,11 +7,11 @@ function App() {
   return (
     <>
 
-      <section className=' px-[250px] w-full h-screen font-montserrat'>
+      <section className="w-full">
         <Header/>
         <Outlet/>
-        <Footer/>
       </section>
+      <Footer/>
       
       
 

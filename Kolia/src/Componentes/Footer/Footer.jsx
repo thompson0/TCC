@@ -3,7 +3,7 @@ import Link from "../Link/Link";
 
 function Footer() {
   return (
-    <footer className="bg-gradient-to-b from-black text-white to-[#252525] bg-contain w-full h-[500px] place-content-center font-montserrat">
+    <footer className="bg-gradient-to-b from-black text-white to-[#252525] px-[250px] w-full h-[500px] place-content-center font-montserrat">
       <div className="flex justify-between">
         <div>
           <img className="mb-10" src="KoliaBranco.png" alt="Logo Kolia Branco"/>
