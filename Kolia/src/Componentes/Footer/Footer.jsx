@@ -7,8 +7,8 @@ function Footer() {
       <div className="flex justify-between">
         <div>
           <img className="mb-10" src="KoliaBranco.png" alt="Logo Kolia Branco"/>
-          <p className="mb-10">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit
+          <p className="mb-10 text-base">
+            Construindo soluções personalizadas para Hoteis
           </p>
         </div>
         <div className="flex items-end gap-10 mb-10">
@@ -25,7 +25,7 @@ function Footer() {
         </div>
       </div>
       <Barra tamanho="100%" />
-      <p className="text-center mt-10">Lorem Ipsum is simply dummy 2024.</p>
+      <p className="text-center text-base mt-10">Copyright © 2024 | Kolia Softwares. </p>
     </footer>
   );
 }

@@ -6,7 +6,6 @@
     color: #E76B38;
 }
 
-@font-face {
-    font-family: 'Post No Bills Jaffna';
-    src: url('PostNoBillsJaffna.woff');
-    }
+::-webkit-scrollbar{
+    width: 0px;
+}
