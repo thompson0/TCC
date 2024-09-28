@@ -7,6 +7,7 @@ import Sobre from './Pages/Sobre.jsx'
 import Contato from './Pages/Contato.jsx'
 import Produtos from './Pages/Produtos.jsx'
 import Home from './Pages/Home.jsx'
+import PageNotFound from './Pages/PageNotFound.jsx'
 
 const router = createBrowserRouter(
   [
@@ -17,7 +18,8 @@ const router = createBrowserRouter(
         {index:true, element:<Home/>},
         {path:"contato", element: <Contato/>},
         {path:"sobre", element:<Sobre/>},
-        {path:"produtos", element:<Produtos/>}
+        {path:"produtos", element:<Produtos/>},
+        {path: "*", element:<PageNotFound/>}
       ]
     }
   ]

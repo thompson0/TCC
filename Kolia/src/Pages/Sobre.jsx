@@ -15,7 +15,7 @@ function Sobre() {
                 <Barra tamanho="100%"/>
                 <div className="flex w-full justify-between">
                     <img className="w-2/6 h-auto"  src="KoliaPretoQualidade.png" alt="" />
-                    <div className="w-3/5 h-auto flex flex-col gap-y-5">
+                    <div className="w-3/5 h-auto flex flex-col gap-y-7">
                         <h3 className="text-5xl font-bold">Criando soluções que fazem a diferença</h3>
                         <p className="text-lg font-medium">Desde o início, a Kolia sempre priorizou a criação de soluções personalizadas para hotéis, buscando entender suas necessidades específicas.</p>
                     </div>
