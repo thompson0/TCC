@@ -1,9 +1,10 @@
+import { NavLink } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
 
 function Header() {
     return ( 
         <header className="flex justify-between px-[250px] h-24 items-center border-b-2 boder-[#DEDEDE]">
-            <h1 className=""><img src="KoliaPreto.png" alt="" /></h1>
+            <NavLink to="/" className=""><img src="KoliaPreto.png" alt="" /></NavLink>
             <Navbar/>
         </header>
     );
