@@ -28,12 +28,12 @@ function Sobre() {
             <section className="bg-gradient-to-b from-black to-[#252525] px-[250px] py-20">
                 <h2 className="text-center text-4xl font-bold text-white">Time principal da <em className="not-italic text-laranja">Kolia</em></h2>
                 <div className="grid grid-cols-3 gap-10 py-20">
-                    <CardEquipe img="linkedin.png" h2="Gabriel Thompson" p="Back-End"/>
-                    <CardEquipe img="linkedin.png" h2="Guilherme Sena" p="Design"/>
-                    <CardEquipe img="linkedin.png" h2="João Vitor" p="Negócios"/>
-                    <CardEquipe img="linkedin.png" h2="José Kaneto" p="Front-End"/>
-                    <CardEquipe img="linkedin.png" h2="Nícolas Baradel" p="Marketing"/>
-                    <CardEquipe img="linkedin.png" h2="Thomas Soares" p="Back-End"/>
+                    <CardEquipe img="thompson.jpg" h2="Gabriel Thompson" p="Back-End"/>
+                    <CardEquipe img="guilherme.jpg" h2="Guilherme Sena" p="Design"/>
+                    <CardEquipe img="joaovitor.jpg" h2="João Vitor" p="Negócios"/>
+                    <CardEquipe img="josekaneto.jpg" h2="José Kaneto" p="Front-End"/>
+                    <CardEquipe img="nicolas.jpg" h2="Nícolas Baradel" p="Marketing"/>
+                    <CardEquipe img="thomas.jpg" h2="Thomas Soares" p="Back-End"/>
                 </div>
             </section>
             <SectionContato/>
