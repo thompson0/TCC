@@ -47,7 +47,7 @@ function Formulario() {
                 <label className="text-xl font-bold text-black mb-2" htmlFor="mensagem">Mensagem :</label>
                 <textarea onChange={(e) => setMensagem(e.target.value)} className="rounded-xl border-2 border-laranja focus:outline-none p-2" id="mensagem" cols="30" rows="10" value={mensagem} ></textarea>
             </div>
-            <input className="rounded-lg py-3 block w-full font-bold text-black border-2 border-laranja mt-5" type="submit" value="Enviar" />
+            <input className="rounded-lg py-3 block w-full font-bold text-black border-2 border-laranja mt-5 hover:bg-laranja hover:bg-opacity-80 hover:border-black" type="submit" value="Enviar" />
         </form>
      );
 }
