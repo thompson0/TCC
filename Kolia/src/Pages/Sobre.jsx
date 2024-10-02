@@ -9,7 +9,7 @@ function Sobre() {
     return ( 
         <main>
             <Subtitulo nome="Sobre Nós"/>
-            <section className="my-20 h-[550px] px-[250px] gap-y-6 flex flex-col">
+            <section className="mt-32 h-[550px] px-[250px] gap-y-6 flex flex-col">
                 <p className="text-laranja font-bold">Sobre Nós</p>
                 <h3 className="text-4xl font-bold">Kolia, a melhor Startup no ramo Hoteleiro </h3>
                 <Barra tamanho="100%"/>
@@ -22,10 +22,10 @@ function Sobre() {
                 </div>
                 <div className="flex flex-col gap-y-5">
                     <p className="text-lg font-medium">A ideia da Kolia surgiu durante um projeto de TCC na FIAP School, uma instituição de ensino médio técnico. Seis alunos perceberam, por meio de contatos e experiências anteriores, qu e o setor de hotelaria enfrentava diversos desafios que poderiam ser resolvidos com o uso da tecnologia.</p>
-                    <p className="text-lg font-medium">Com o desenvolvimento do Kolia Check, nosso primeiro produto, buscamos resolver o problema da alta demanda no check-in, proporcionando um melhor controle de dados. Continuamos a explorar novos desafios para desenvolver soluções inovadoras.</p>
+                    <p className="text-lg font-medium ">Com o desenvolvimento do Kolia Check, nosso primeiro produto, buscamos resolver o problema da alta demanda no check-in, proporcionando um melhor controle de dados. Continuamos a explorar novos desafios para desenvolver soluções inovadoras.</p>
                 </div>
             </section>
-            <section className="bg-gradient-to-b from-black to-[#252525] px-[250px] py-20">
+            <section className="bg-gradient-to-b from-black to-[#252525] px-[250px] py-20 mt-24 ">
                 <h2 className="text-center text-4xl font-bold text-white">Time principal da <em className="not-italic text-laranja">Kolia</em></h2>
                 <div className="grid grid-cols-3 gap-10 py-20">
                     <CardEquipe img="thompson.jpg" h2="Gabriel Thompson" p="Back-End"/>

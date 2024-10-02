@@ -6,13 +6,13 @@ import SecitonContato from "../Componentes/SectionContato/SectionContato";
 function Home() {
     return ( 
         <main>
-            <section className="flex py-40 justify-between relative px-[250px]">
-                <div className="w-3/5 font-bold flex flex-col gap-y-10 ">
+            <section className="flex items-center py-40 justify-between px-[250px]">
+                <div className="w-3/5 font-bold flex flex-col gap-y-10">
                     <h2 className="text-5xl font-black">CONSTRUINDO SOLUÇÕES <em className="text-laranja not-italic">PERSONALIZADAS</em>  <em className="not-italic text-cinza">PARA HOTÉIS</em></h2>
                     <p className="text-lg font-semibold">Transforme a gestão do seu hotel com automação inteligente, aumentando eficiência e proporcionando uma experiência única para seus hóspedes.</p>
                     <Botao children="Saiba Mais" to="produtos"/>
                 </div>
-                <img className="w-[550px] h-auto absolute bottom-12 right-40" src="SolucoesPersonalizadas.png" alt="" />
+                <img className="w-[400px] h-[400px]" src="SolucoesPersonalizadas.png" alt="" />
             </section>
             <SectionCard className="px-[250px]">
                 <Card img="icon3.png" h3="Inovação Tecnológica" p="Implementação das mais recentes tecnologias"/>

@@ -9,6 +9,7 @@ import Produtos from './Pages/Produtos.jsx'
 import Home from './Pages/Home.jsx'
 import PageNotFound from './Pages/PageNotFound.jsx'
 import Duvidas from './Pages/Duvidas.jsx'
+import KCheck from './Pages/KCheck.jsx'
 
 const router = createBrowserRouter(
   [
@@ -21,7 +22,8 @@ const router = createBrowserRouter(
         {path:"sobre", element:<Sobre/>},
         {path:"produtos", element:<Produtos/>},
         {path: "*", element:<PageNotFound/>},
-        {path: "duvidas", element:<Duvidas/>}
+        {path: "duvidas", element:<Duvidas/>},
+        {path: "kcheck", element:<KCheck/>}
       ]
     }
   ]

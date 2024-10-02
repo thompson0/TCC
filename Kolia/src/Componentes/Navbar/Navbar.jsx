@@ -8,7 +8,6 @@ function Navbar() {
                 <li><Link to="produtos">Produtos</Link></li>
                 <li><Link to="sobre">Sobre</Link></li>
                 <li><Link to="contato">Contato</Link></li>
-                <li><Link to="duvidas">Dúvidas</Link></li>
             </ul>
         </nav>
      );
