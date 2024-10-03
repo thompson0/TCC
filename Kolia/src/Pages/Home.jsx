@@ -10,7 +10,7 @@ function Home() {
                 <div className="w-3/5 font-bold flex flex-col gap-y-10">
                     <h2 className="text-5xl font-black">CONSTRUINDO SOLUÇÕES <em className="text-laranja not-italic">PERSONALIZADAS</em>  <em className="not-italic text-cinza">PARA HOTÉIS</em></h2>
                     <p className="text-lg font-semibold">Transforme a gestão do seu hotel com automação inteligente, aumentando eficiência e proporcionando uma experiência única para seus hóspedes.</p>
-                    <Botao children="Saiba Mais" to="produtos"/>
+                    <Botao children="Saiba Mais" to="produtos" cor="#E76B38"/>
                 </div>
                 <img className="w-[400px] h-[400px]" src="SolucoesPersonalizadas.png" alt="" />
             </section>
@@ -29,7 +29,7 @@ function Home() {
                     <p className="text-lg font-semibold">
                     Elevando a experiência tanto da sua equipe quanto dos seus hóspedes, elevando a qualidade e estrutura do hotel.
                     </p>
-                    <Botao children="Nossos Produtos" to="produtos"/>
+                    <Botao children="Nossos Produtos" to="produtos" cor="#E76B38"/>
                 </div>
             </section>
             <section className="bg-gradient-to-b from-black to-[#252525] text-white  px-[250px] flex w-full py-40 justify-between items-center">
@@ -37,7 +37,7 @@ function Home() {
                     <h2 className="text-5xl font-black">Sobre a Startup Kolia</h2>
                     <p className="text-lg font-semibold">Na Kolia, somos uma startup dedicada a transformar a gestão hoteleira por meio de soluções tecnológicas inovadoras.</p>
                     <p className="text-lg font-semibold">Conheça mais sobre nossa visão e como podemos ajudar seu negócio a alcançar novos patamares."</p>
-                    <Botao children="Sobre Nós" to="sobre"/>
+                    <Botao children="Sobre Nós" to="sobre" cor="#E76B38"/>
                 </div>
                 <img className="w-5/12 h-1/5  bottom-36 -right-24" src="Kolia.png" alt="" />
             </section>

@@ -4,8 +4,11 @@
 
 .active{
     color: #E76B38;
+    
 }
 
 ::-webkit-scrollbar{
     width: 0px;
 }
+
+
