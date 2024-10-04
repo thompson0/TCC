@@ -1,11 +1,11 @@
 import express from 'express';
-import conectaNaDb from './db.js';
+import connectDb from './db.js';
 import cors from 'cors';
-import Duvidas from './Models/Duvidas.js';
+import contato from './Models/contato.js';
 
 const app = express();
 app.use(cors());
-const conexao = await conectaNaDb();
+const conexao = await connectDb();
 
 conexao.on('error', (erro) => { 
     console.error('Erro ao conectar no MongoDB', erro);
@@ -16,9 +16,9 @@ conexao.once('open', () => {
 });
 
 app.get('/duvidas', async (req, res) => {
-    const listaDuvidas = await Duvidas.find({});
-    res.status(200).json(listaDuvidas); 
-    console.log(listaDuvidas);
+    const listaContatos = await contato.find({});
+    res.status(200).json(listaContatos);
+    console.log(listaContatos)
 });
 
 

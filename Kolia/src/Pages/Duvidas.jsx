@@ -4,23 +4,19 @@ import { useEffect, useState } from "react";
 
 function Contato() {
 
-    const [Duvidas, setDuvidas] = useState([]);
+    const [contatos, setContatos] = useState([]);
     
 useEffect(() => {
     fetch('http://localhost:5173/duvidas')
         .then(res => res.json())
-        .then(data => setDuvidas(data))
+        .then(data => setContatos(data))
         .catch(err => console.log(err))
-        console.log(Duvidas)
 })
 
     return (
-        <section>
-            <Subtitulo nome="Tire suas Dúvidas" />
             <div>
-                {Duvidas.map}
+            {contatos}
             </div>
-        </section>
 
     );
 }

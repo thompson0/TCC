@@ -1,12 +1,12 @@
 import mongoose from "mongoose";
 
-const DuvidaSchema = new mongoose.Schema({
+const ContatoSchema = new mongoose.Schema({
     id: { type: mongoose.Schema.Types.ObjectId },
     nome: {type: String, required: true},
     email: {type: String, required: true},
-    body: {type: String, required: true}
+    mensagem: {type: String, required: true}
 })
 
-const Duvidas = mongoose.model('Duvidas', DuvidaSchema);
+const contato = mongoose.model('contatos', ContatoSchema);
 
-export default Duvidas
+export default contato
