@@ -7,16 +7,16 @@ function Footer() {
       <div className="flex justify-between">
         <div>
           <img className="mb-10" src="KoliaBranco.png" alt="Logo Kolia Branco"/>
-          <p className="mb-10 text-base">
+          <p className="mb-10 text-base max-xl:w-3/4">
             Construindo soluções personalizadas para Hoteis
           </p>
         </div>
-        <div className="flex items-end gap-10 mb-10">
+        <div className="flex items-end gap-10 mb-10 max-xl:gap-20">
           <div className="flex flex-row gap-5">
-            <img className="w-12 h-12" src="linkedin.png" alt="" />
-            <img className="w-12 h-12" src="instagram.png" alt="" />
+            <img className="w-12 h-12 " src="linkedin.png" alt="" />
+            <img className="w-12 h-12 " src="instagram.png" alt="" />
           </div>
-          <ul className="textend">
+          <ul className="textend max-xl:text-nowrap">
             <li><Link to="/">Home</Link></li>
             <li><Link to="produtos">Produtos</Link></li>
             <li><Link to="sobre">Sobre Nós</Link></li>
