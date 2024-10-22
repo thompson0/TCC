@@ -13,8 +13,8 @@ function Footer() {
         </div>
         <div className="flex items-end gap-10 mb-10 max-xl:gap-20">
           <div className="flex flex-row gap-5">
-            <img className="w-12 h-12 " src="linkedin.png" alt="" />
-            <img className="w-12 h-12 " src="instagram.png" alt="" />
+            <img className="w-12 h-12 max-lg:hidden" src="linkedin.png" alt="" />
+            <img className="w-12 h-12 max-lg:hidden" src="instagram.png" alt="" />
           </div>
           <ul className="textend max-xl:text-nowrap">
             <li><Link to="/">Home</Link></li>
@@ -25,7 +25,7 @@ function Footer() {
         </div>
       </div>
       <Barra tamanho="100%" />
-      <p className="text-center text-base mt-10">Copyright © 2024 | Kolia Softwares. </p>
+      <p className="text-center text-base mt-10">Copyright © 2024 | Kolia Softwares.</p>
     </footer>
   );
 }

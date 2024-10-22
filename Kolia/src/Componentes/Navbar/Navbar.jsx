@@ -6,22 +6,6 @@ function Navbar() {
 
   return (
     <>
-      {/* <nav className="flex items-center">
-        <ul className="flex gap-10 items-center max-xl:gap-0 max-xl:flex-col">
-          <li className="max-xl:text-xs">
-            <Link to="/">Home</Link>
-          </li>
-          <li className="max-xl:text-xs">
-            <Link to="produtos">Produtos</Link>
-          </li>
-          <li className="max-xl:text-xs">
-            <Link to="sobre">Sobre</Link>
-          </li>
-          <li className="max-xl:text-xs">
-            <Link to="contato">Contato</Link>
-          </li>
-        </ul>
-      </nav> */}
       <nav>
         <section className="MOBILE-MENU flex xl:hidden">
           <div
