@@ -8,7 +8,7 @@ function Home() {
         <main>
             <section className="flex items-center py-40 justify-between px-[250px] max-xl:items-center">
                 <div className="w-3/5 font-bold flex flex-col gap-y-10 max-xl:text-center max-xl:items-center max-xl:w-full">
-                    <h2 className="text-5xl font-black">CONSTRUINDO SOLUÇÕES <em className="text-laranja not-italic">PERSONALIZADAS</em>  <em className="not-italic text-cinza">PARA HOTÉIS</em></h2>
+                    <h2 className="text-5xl font-black">CONSTRUINDO SOLUÇÕES <em className="not-italic text-cinza">PARA HOTÉIS</em></h2>
                     <p className="text-lg font-semibold">Transforme a gestão do seu hotel com automação inteligente, aumentando eficiência e proporcionando uma experiência única para seus hóspedes.</p>
                     <Botao children="Saiba Mais" to="produtos" cor="#E76B38"/>
                 </div>
