@@ -34,7 +34,7 @@ function Formulario() {
     }
 
     return ( 
-        <form onSubmit={EnviarEmail} className="w-2/5 border-2 border-black shadow-2xl shadow-laranja p-10 rounded-lg max-xl:w-4/6 ">
+        <form onSubmit={EnviarEmail} className="w-3/5 border-2 border-black shadow-2xl shadow-laranja p-10 rounded-lg max-xl:w-4/6 ">
             <div className="w-full flex flex-col  mb-5">
                 <label className="text-xl mb-2 font-bold text-black"  htmlFor="nome">Nome:</label>
                 <input onChange={(e) => setName(e.target.value)} placeholder='exemplo' className="rounded-lg border-2 border-laranja focus:outline-none p-2" type="text" value={name} />
