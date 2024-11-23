@@ -16,17 +16,7 @@ function KControl() {
             <em className="font-bold not-italic"> reconhecimento facial.</em>
           </p>
         </div>
-        <iframe
-        className="absolute -bottom-44 w-full h-3/4 px-[250px] rounded-3xl "
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/brBTzXoeum4?si=KgVdRvYTfoyUtFM7"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
+        <iframe className="absolute -bottom-44 w-full h-3/4 px-[250px] rounded-3xl " width="560" height="315" src="https://www.youtube.com/embed/Dtaq1k27oo4?si=DKGsCvgwwTcsPXvu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </section>
       <section className="pt-80 mb-32 mx-[250px]">
         <h2 className="text-center text-4xl font-bold mb-20">
